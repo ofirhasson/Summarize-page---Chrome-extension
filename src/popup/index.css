@@ -1,0 +1,6 @@
+html,body, .index{
+    text-align: center;
+    height: fit-content;
+    width: 700px;
+    margin: 0;
+}

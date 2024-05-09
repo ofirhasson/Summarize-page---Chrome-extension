@@ -10,7 +10,9 @@
     "package": "plasmo package"
   },
   "dependencies": {
-    "plasmo": "0.85.2",
+    "@plasmohq/storage": "^1.9.3",
+    "axios": "^1.6.8",
+    "plasmo": "^0.86.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -24,6 +26,9 @@
     "typescript": "5.3.3"
   },
   "manifest": {
+    "permissions": [
+      "activeTab"
+    ],
     "host_permissions": [
       "https://*/*"
     ]

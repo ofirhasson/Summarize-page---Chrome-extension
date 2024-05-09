@@ -1,0 +1,23 @@
+.layout {
+	height: 100%;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-rows: 20% 80%;
+}
+header{
+    background-image: linear-gradient(45deg,blue,aqua,white);
+}
+header,main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+main{
+    height: fit-content; 
+    padding: 8px;
+}
+
+h1,p{
+    margin: 0;
+}
